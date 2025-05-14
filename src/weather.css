@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-
     place-self: center;
     border-radius: 10px;
     background-color: #ebfffc;
@@ -105,10 +104,13 @@
 
 /* Mobile responsive */
 @media (max-width: 600px) {
+    .Weather {
+        place-self: center;
+    }
     .weather-card {
         width: 100%;
     }
-}
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -161,7 +163,7 @@
     text-align: center;
     margin-top: 10px;
   }
-
+}
 
 
 
